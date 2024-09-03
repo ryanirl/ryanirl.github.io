@@ -1,7 +1,7 @@
-<!DOCTYPE html><html lang="en"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width"><link rel="icon" type="image/svg+xml" href="/favicon.svg"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"><meta name="generator" content="Astro v4.12.2"><title>Harmful Brain Activity Classification</title><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css" integrity="sha384-MlJdn/WNKDGXveldHDdyRP1R4CTHr3FeuDNfhsLPYrq2t0UBkUdK2jyTnXPEK1NQ" crossorigin="anonymous"><script type="text/partytown" defer data-domain="ryanirl.github.io" src="https://plausible.io/js/script.js"></script><link rel="stylesheet" href="/_astro/about.C6sz8r5x.css">
+<!DOCTYPE html><html lang="en"> <head><meta charset="UTF-8"><meta name="viewport" content="width=device-width"><link rel="icon" type="image/png" href="/assets/favicon_square.png"><meta name="description" content="Ryan Peters is a student and researcher, working at the intersection of machine learning, neuroscience, and healthcare."><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet"><meta name="generator" content="Astro v4.12.2"><title>Harmful Brain Activity Classification</title><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.15.2/dist/katex.min.css" integrity="sha384-MlJdn/WNKDGXveldHDdyRP1R4CTHr3FeuDNfhsLPYrq2t0UBkUdK2jyTnXPEK1NQ" crossorigin="anonymous"><script type="text/partytown" defer data-domain="ryanirl.com" src="https://plausible.io/js/script.js"></script><link rel="stylesheet" href="/_astro/about.CEAy0-kL.css">
 <style>.citation-tooltip[data-astro-cid-eqo3tkq5]{display:none;position:absolute;background-color:var(--tooltip-bg);color:var(--tooltip-text);border:1px solid var(--tooltip-border);padding:10px;border-radius:4px;font-size:.9em;max-width:500px;z-index:1000;box-shadow:0 2px 5px #0003}.citation-tooltip[data-astro-cid-eqo3tkq5] a[data-astro-cid-eqo3tkq5]{color:var(--tooltip-link);text-decoration:underline}.references-list[data-astro-cid-eqo3tkq5]{padding-left:20px}:root{--tooltip-bg: #f9f9f9;--tooltip-text: #333;--tooltip-border: #ccc;--tooltip-link: #0000EE}:root.dark{--tooltip-bg: #2a2a2a;--tooltip-text: #e0e0e0;--tooltip-border: #555;--tooltip-link: #879eff}.citation-ref[data-astro-cid-tbsazfha]{cursor:pointer;color:var(--citation-color)}:root{--citation-color: #6d6dbf}:root.dark{--citation-color: #8089b4}.break-words[data-astro-cid-xj2uyz6m]{word-wrap:break-word;overflow-wrap:break-word;-webkit-hyphens:auto;hyphens:auto}.break-all[data-astro-cid-xj2uyz6m]{word-break:break-all}.grid-0[data-astro-cid-whmuftws]{flex:none}@media (min-width: 768px){.grid-0[data-astro-cid-whmuftws]{width:12rem}}.grid-1[data-astro-cid-whmuftws]{flex:0 1 auto}@media (min-width: 768px){.grid-1[data-astro-cid-whmuftws]{width:73rem}}.grid-2[data-astro-cid-whmuftws]{flex:0 1 auto}@media (min-width: 768px){.grid-2[data-astro-cid-whmuftws]{width:0rem}}
 </style>
-<link rel="stylesheet" href="/_astro/gamblers_ruin.DtVBE6KU.css">
+<link rel="stylesheet" href="/_astro/gamblers_ruin.BSsibEFz.css">
 <style>.light-text[data-astro-cid-oemx5le4]{display:none}.dark-text[data-astro-cid-oemx5le4],.dark .light-text[data-astro-cid-oemx5le4]{display:inline}.dark .dark-text[data-astro-cid-oemx5le4]{display:none}
 </style><script type="module">const l=JSON.parse(document.getElementById("citations-data").textContent),o=document.getElementById("citationTooltip");let a;function u(t,e){clearTimeout(a),o.innerHTML=`
       <strong>${e.title}</strong><br>
@@ -54,7 +54,7 @@ is one of the first steps in the
 effective diagnosis and treatment of neurological disorders [<span class="citation-ref" data-citation-id="5" data-astro-cid-tbsazfha>5</span>] [<span class="citation-ref" data-citation-id="6" data-astro-cid-tbsazfha>6</span>]
 Today, electroencephalograms (EEGs) are used as non-invasive tests to
 record the electrical activity of the brain to detect various types of
-brain activity, harmful or otherwise. Although, manual labelling of EEG data
+brain activity, harmful or otherwise. Although, manual labeling of EEG data
 is error-prone, subjective, and time consuming. For example, consider
 the scenario in which a patient undergoes a 24-hour EEG monitoring session
 resulting in a <em>large</em> amount of data being recorded across multiple electrode
@@ -269,7 +269,7 @@ made in natural language processing, and decided to treat each spectrogram and
 EEG channel as a token that needs to be embedded into a single vector. After
 embedding each channel, we used an additive attention layer with learned
 positional encodings to route and mix the embeddings, effectively allowing us to
-learn the relationships between the different electrode channel without encoding
+learn the relationships between the different electrode channels without encoding
 it explicitly. In the last layer, we applied attention-pooling followed by a
 linear layer and softmax for classification.</p>
 <center><figure><img src="/img/hbac/multi-modal-model.png" width="100%" style="background-color: white;"/><figcaption><p><b>Figure 7:</b> The architecture of the 1D EEG model (1), the 2D
@@ -490,7 +490,7 @@ All figures can also be reproduced (see <strong>Figures</strong> below).</p>
 <a href="https://en.wikipedia.org/wiki/10%E2%80%9320_system_(EEG)" target="_blank">Link</a>.</li>
 <li>Single sample of data.
 <a href="https://www.kaggle.com/competitions/hms-harmful-brain-activity-classification/data" target="_blank">Link</a>.</li>
-<li>Custom. Number of annotator.
+<li>Custom. Number of annotators.
 <a href="https://github.com/ryanirl/blog-supplementary/blob/3e6ec63bee460b345b3499ffa1fdc71c2d94039e/hbac/figures.ipynb" target="_blank">Link</a>.</li>
 <li>Custom. Distribution of agreement.
 <a href="https://github.com/ryanirl/blog-supplementary/blob/3e6ec63bee460b345b3499ffa1fdc71c2d94039e/hbac/figures.ipynb" target="_blank">Link</a>.</li>
